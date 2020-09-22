@@ -2,9 +2,7 @@
     @return map-get(map-get($theme, $color-name), $color-variant);
 }
 
-$dark: (
-    base: (
-        bg: rgb(30, 30, 30),
+$dark: (base: (bg: rgb(30, 30, 30),
         bgFocusColor: darken(rgb(30, 30, 30), 5%),
         fg: rgb(180, 180, 180),
         fg-dark: rgb(160, 160, 160),
@@ -13,21 +11,15 @@ $dark: (
         inactive: rgb(60, 60, 60),
         panel: rgb(15, 15, 15),
         panel-light: rgb(60, 60, 60),
-        dialogue-window: rgb(92, 36, 110)
-    ),
+        dialogue-window: rgb(92, 36, 110)),
 
-    common: (
-        success: green,
+    common: (success: green,
         confirm: cornflowerblue,
         warning: orange,
-        error: red
-    )
-);
+        error: red));
 
-$light: (
-    base: (
-        bg: rgb(255, 30, 30),
-        bgFocusColor: darken(rgb(255, 30, 30), 5%),
+$light: (base: (bg: rgb(255, 255, 255),
+        bgFocusColor: darken(rgb(255, 255, 255), 5%),
         fg: rgb(240, 240, 240),
         fg-dark: rgb(180, 180, 180),
         primary: rgb(92, 36, 110),
@@ -35,13 +27,9 @@ $light: (
         inactive: rgb(60, 60, 60),
         panel: rgb(15, 15, 15),
         panel-light: rgb(60, 60, 60),
-        dialogue-window: rgb(92, 36, 110)
-    ),
+        dialogue-window: rgb(92, 36, 110)),
 
-    common: (
-        success: green,
+    common: (success: green,
         confirm: cornflowerblue,
         warning: orange,
-        error: red
-    )
-);
+        error: red));

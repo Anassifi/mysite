@@ -1,29 +1,12 @@
-# mysite
+## Tasks:
 
-## Project setup
-```
-yarn install
-```
+[x] Responsive for home
+[] Return padding for both app and ul
+[] Remove backgroundRec and make the website simple
+[] Add animations once the website load
+[] Add AOS library to the website (optional)
+[] Sidebar for the responsive
+[] Add some margin on the top of the sidebar
+[] making it animate
+[] add hamburger button
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Run your unit tests
-```
-yarn test:unit
-```
-
-### Run your end-to-end tests
-```
-yarn test:e2e
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
