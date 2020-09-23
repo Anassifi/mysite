@@ -1,6 +1,7 @@
 import Navbar from "@/components/my-navbar/Navbar.vue";
 import Arrow from "@/components/arrow/Arrow.vue";
 import Sidebar from "@/components/side-bar/Sidebar.vue"
+import About from "@/views/about/About.vue"
 
 export default {
   name: "App",
@@ -8,5 +9,6 @@ export default {
     Navbar,
     Arrow,
     Sidebar,
+    About
   },
 };

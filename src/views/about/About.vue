@@ -1,11 +1,11 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+<template src="./about.html">
+  
 </template>
 
-<style scoped>
-h1 {
-  color: #11cc;
-}
-</style>>
+<script src="./about.js">
+
+</script>
+
+<style lang="scss" src="./_about.scss">
+
+</style>

@@ -18,5 +18,5 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" src="../views/portfolio/_portfolio.scss">
+<style lang="scss" src="../views/home/_home.scss">
 </style>
