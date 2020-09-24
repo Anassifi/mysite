@@ -3,7 +3,7 @@
     width: 24px;
     height: 24px;
     top: -25em;
-    left: 20em;
+    left: 12em;
 }
 
 .chevron {
@@ -67,6 +67,8 @@
 }
 
 .text {
+    position: relative;
+    left: -46em;
     display: block;
     margin-top: 75px;
     margin-left: -30px;

@@ -1,5 +1,40 @@
-.contact{
-    h1{
-        color: #11cc;
+.contact {
+    @import "../../styles/myStyles";
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+    top: -12em;
+
+    background-image: url("../../assets/mprojectsfliped.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50em;
+    width: 100%;
+    
+    .contact__background {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-image: url("../../assets/myProjects.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40em;
+        width: 75%;
+
+        -webkit-box-shadow: 8px 12px 5px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 8px 12px 5px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 12px 5px 0px rgba(0, 0, 0, 0.1);
     }
+
+    .contact__jumbotron {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        background-color: $third-color;
+        height: 34em;
+        width: 80%;
+    }
+
 }

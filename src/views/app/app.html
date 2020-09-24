@@ -1,16 +1,17 @@
 <div id="app" class="background-rec">
+  <div id="top"></div>
   <Navbar>
     <header id="nav" slot="menu">
       <a href="/"><img id="nav-logo" src="../../assets/logo.png" alt="logo" /></a>
       <ul>
         <li>
-          <router-link to="#">About</router-link>
+          <a href="#about">About</a>
         </li>
         <li>
-          <router-link to="#">Portfolio</router-link>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <router-link to="#">Contact</router-link>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </header>
@@ -39,7 +40,10 @@
       </div>
     </div>
   </Sidebar>
-  <About>
+  <About id="about">
+
   </About>
-  <Portfolio></Portfolio>
+  <Portfolio id="portfolio"></Portfolio>
+  <Contact id="contact"></Contact>
+  <a href="#top">Go top</a>
 </div>

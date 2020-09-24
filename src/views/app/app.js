@@ -1,8 +1,9 @@
-import Navbar from "@/components/my-navbar/Navbar.vue"
-import Arrow from "@/components/arrow/Arrow.vue"
-import Sidebar from "@/components/side-bar/Sidebar.vue"
-import About from "@/views/about/About.vue"
-import Portfolio from "@/views/portfolio/Portfolio.vue"
+import Navbar from "@/components/my-navbar/Navbar.vue";
+import Arrow from "@/components/arrow/Arrow.vue";
+import Sidebar from "@/components/side-bar/Sidebar.vue";
+import About from "@/views/about/About.vue";
+import Portfolio from "@/views/portfolio/Portfolio.vue";
+import Contact from "@/views/contact/contact.vue";
 
 export default {
   name: "App",
@@ -11,7 +12,7 @@ export default {
     Arrow,
     Sidebar,
     About,
-    Portfolio
-    
+    Portfolio,
+    Contact,
   },
 };
