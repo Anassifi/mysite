@@ -1,14 +1,11 @@
 <div class="about">
     <div class="myself">
-        <img src="#" alt="picture">
+        <img src="../../assets/myPicture.png" alt="picture">
     </div>
     <div class="presentation">
-        <div class="isMe">
-            <h1>{{ title }}</h1>
-            <p>First year <span>web dev student</span> @YouCode.
-                From <span>Marrakech</span>, based in Youssoufia.
-                I’m passionate about <span>technology</span>, and
-                <span>code</span>.</p>
+        <div class="isMe" v-for="about of aboutMe" v-bind:key="about['.key']">
+            <h1>{{about.name}}</h1>
+            <p>{{about.description}}</p>
         </div>
         <div class="iSpeak">
             <div class="languages">
@@ -32,5 +29,4 @@
             </div>
         </div>
     </div>
-
 </div>
