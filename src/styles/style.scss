@@ -318,3 +318,224 @@ header {
         left: 20em;
     }
 }
+
+//Full responsive 
+
+@media only screen and (min-width: 800px) and(max-width: 1450px) {
+    .presentation .isMe {
+        h1 {
+            left: -2.2em;
+        }
+    }
+
+    .card {
+        height: 27em;
+        width: 18em;
+
+        &__description {
+
+            font-family: 'Open sans', sans-serif;
+
+            h6 {
+                color: $third-color;
+                font-weight: 300;
+                font-size: .7em;
+                margin-bottom: .5em;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 1.8em;
+                color: $fourth-color;
+                text-transform: capitalize;
+                margin-bottom: .5em;
+
+            }
+
+            p {
+                height: 7em;
+                width: 15em;
+                color: $third-color;
+            }
+
+            button {
+                position: relative;
+                font-size: .7em;
+                padding: 1em 2em;
+                color: $base-color;
+                background-color: $third-color;
+                border-radius: 5px;
+            }
+        }
+    }
+
+
+}
+
+@media only screen and (min-width: 350px) and (max-width: 800px) {
+    .presentation .isMe h1 {
+        left: 0.3em;
+        font-size: 2em;
+    }
+
+    .presentation .isMe p {
+        width: 80%;
+        font-size: 1em;
+    }
+
+    .presentation .iSpeak {
+        font-size: 1.3em;
+    }
+
+    .about {
+        top: 7em;
+    }
+
+    .about .myself img {
+        height: 33em;
+        left: 1em;
+        top: -1em;
+    }
+
+    .text {
+        left: -29em;
+    }
+
+    .form input {
+        font-size: 1em;
+    }
+
+    .form button {
+        font-size: 1em;
+    }
+
+    .form input:focus {
+        font-size: 1.01em;
+    }
+
+    .footer {
+        height: 15em;
+        top: -12em;
+
+        h4 {
+            position: relative;
+            top: -3em;
+        }
+
+        .footer__desc {
+            font-size: .7em;
+            position: relative;
+            top: -3em;
+        }
+
+        a {
+            position: relative;
+            top: -1em;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 370px) and (max-width: 450px) {
+    #nav {
+        ul {
+            font-size: .9em;
+        }
+    }
+
+    .container .text {
+        left: -17.5em;
+    }
+
+    .about {
+        top: 9em;
+    }
+
+    .presentation .isMe h1 {
+        left: 0.8em;
+        font-size: 1em;
+    }
+
+    .presentation .isMe p {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .about .myself img {
+        height: 19em;
+        left: 1em;
+        top: -1em;
+    }
+
+    .presentation .iSpeak {
+        font-size: 0.6em;
+        position: relative;
+        top: -3em;
+        left: 1.5em;
+    }
+
+    .portfolio {
+        top: -24em;
+
+        .portfolio__background {
+            height: 35em;
+            width: 80%;
+        }
+
+        .portfolio__jumbotron {
+            height: 29em;
+
+            .dots {
+                position: absolute;
+                bottom: 12em;
+                font-size: 1em;
+            }
+        }
+
+        .card {
+            height: 18em;
+            width: 12em;
+
+            .card__img {
+                top: -2em;
+                height: 7em;
+            }
+        }
+
+        .card__description h6 {
+            color: #52616b;
+            font-weight: 300;
+            font-size: 0.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .card__description h1 {
+            font-size: 1em;
+        }
+
+        .card__description p {
+            font-size: .7em;
+        }
+
+        .card__description button {
+            font-size: .5em;
+        }
+    }
+
+    .contact {
+        top: -24em;
+
+        .form input {
+            font-size: .6em;
+        }
+
+        .form button {
+            font-size: .6em;
+        }
+    }
+
+    .footer {
+        top: -24em;
+    }
+
+}

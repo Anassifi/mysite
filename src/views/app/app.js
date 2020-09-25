@@ -4,6 +4,7 @@ import Sidebar from "@/components/side-bar/Sidebar.vue";
 import About from "@/views/about/About.vue";
 import Portfolio from "@/views/portfolio/Portfolio.vue";
 import Contact from "@/views/contact/contact.vue";
+import Footer from "@/components/footer/Footer.vue";
 
 export default {
   name: "App",
@@ -14,5 +15,6 @@ export default {
     About,
     Portfolio,
     Contact,
+    Footer,
   },
 };

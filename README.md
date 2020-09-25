@@ -10,7 +10,7 @@
 [x] Cut the picture on PS
 [x] Add my picture to about
 [x] Add db
-[] Add responsive
+[x] Add responsive
 [] Add AOS library to the website (optional)
 [] Add animations once the website load
 [] Add some margin on the top of the sidebar
