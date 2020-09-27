@@ -1,6 +1,6 @@
-<div id="app" class="background-rec">
+<div id="app" class="1background-rec">
   <div id="top"></div>
-  <Navbar>
+  <Navbar hidden>
     <header id="nav" slot="menu">
       <a href="/"><img id="nav-logo" src="../../assets/logo.png" alt="logo" /></a>
       <ul>
@@ -13,37 +13,42 @@
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+          <router-link to="/dashboard">Dashboard</router-link>
+        </li>
       </ul>
     </header>
   </Navbar>
+  <dashboardNav></dashboardNav>
   <router-view />
-  <img class="app-coder" src="../../assets/coder.png" alt="coder" />
-  <Arrow></Arrow>
-  <Sidebar>
-    <div slot="sidebar">
-      <div slot="picture">
-        <img src="../../assets/salim.jpg" />
+  <div class="website" hidden>
+    <img class="app-coder" src="../../assets/coder.png" alt="coder" />
+    <Arrow></Arrow>
+    <Sidebar>
+      <div slot="sidebar">
+        <div slot="picture">
+          <img src="../../assets/salim.jpg" />
+        </div>
+        <div slot="name">
+          <h2>Anassifi</h2>
+          <h6>Web dev Student</h6>
+          <hr />
+        </div>
+        <div slot="commands">
+          <font-awesome-icon :icon="['fas' ,'user']" /> About me
+        </div>
+        <div slot="commands">
+          <font-awesome-icon :icon="['fas' ,'desktop']" /> Portfolio
+        </div>
+        <div slot="commands">
+          <font-awesome-icon :icon="['fas' ,'at']" /> Contact
+        </div>
       </div>
-      <div slot="name">
-        <h2>Anassifi</h2>
-        <h6>Web dev Student</h6>
-        <hr />
-      </div>
-      <div slot="commands">
-        <font-awesome-icon :icon="['fas' ,'user']" /> About me
-      </div>
-      <div slot="commands">
-        <font-awesome-icon :icon="['fas' ,'desktop']" /> Portfolio
-      </div>
-      <div slot="commands">
-        <font-awesome-icon :icon="['fas' ,'at']" /> Contact
-      </div>
-    </div>
-  </Sidebar>
-  <About id="about">
-
-  </About>
-  <Portfolio id="portfolio"></Portfolio>
-  <Contact id="contact"></Contact>
-  <Footer></Footer>
+    </Sidebar>
+    <About id="about">
+    </About>
+    <Portfolio id="portfolio"></Portfolio>
+    <Contact id="contact"></Contact>
+    <Footer></Footer>
+  </div>
 </div>

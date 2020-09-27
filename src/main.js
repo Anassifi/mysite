@@ -1,4 +1,3 @@
-import "./firebase";
 import Vue from "vue";
 import App from "./views/app/App.vue";
 import router from "./router";
@@ -9,9 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import "./registerServiceWorker";
 import "@/styles/style.scss";
 import vuetify from "./plugins/vuetify";
-import { rtdbPlugin } from "vuefire";
 
-Vue.use(rtdbPlugin);
 library.add(fas);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 

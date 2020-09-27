@@ -451,14 +451,23 @@ header {
         top: 9em;
     }
 
+    .presentation {
+        top: 0.5em;
+    }
+
     .presentation .isMe h1 {
         left: 0.8em;
         font-size: 1em;
+        width: 11em;
     }
 
     .presentation .isMe p {
         width: 100%;
         font-size: 0.8em;
+    }
+
+    .about {
+        width: 83%;
     }
 
     .about .myself img {

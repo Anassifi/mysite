@@ -1,5 +1,3 @@
-import { aboutRef } from "../../firebase";
-
 export default {
   el: ".about",
   data() {
@@ -10,7 +8,4 @@ export default {
       tools: "Tools"
     };
   },
-  firebase:{
-    aboutMe: aboutRef
-  }
 };
