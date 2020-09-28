@@ -46,7 +46,7 @@
 
 .background-rec {
   background-image: url("../../assets/shapes.png");
-  background-size: 60%;
+  background-size: 75%;
   background-repeat: no-repeat;
   background-position: top right;
 }
@@ -67,4 +67,6 @@
   width: 30%;
 }
 
-
+.hide {
+  visibility: hidden !important;
+}

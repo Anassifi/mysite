@@ -1,6 +1,6 @@
-<div id="app" class="1background-rec">
+<div id="app" class="background-rec">
   <div id="top"></div>
-  <Navbar hidden>
+  <Navbar class="Navbar" v-show="!seen">
     <header id="nav" slot="menu">
       <a href="/"><img id="nav-logo" src="../../assets/logo.png" alt="logo" /></a>
       <ul>
@@ -13,15 +13,17 @@
         <li>
           <a href="#contact">Contact</a>
         </li>
-        <li>
-          <router-link to="/dashboard">Dashboard</router-link>
+        <li v-on:click="openDashboard">
+          <router-link to="/dashboard">Login</router-link>
         </li>
       </ul>
     </header>
   </Navbar>
-  <dashboardNav></dashboardNav>
+  <div class="dashboardView" v-show="seen">
+    <dashboardNav></dashboardNav>
+  </div>
   <router-view />
-  <div class="website" hidden>
+  <div class="website" v-show="!seen">
     <img class="app-coder" src="../../assets/coder.png" alt="coder" />
     <Arrow></Arrow>
     <Sidebar>

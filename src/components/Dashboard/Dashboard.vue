@@ -19,7 +19,7 @@
             params: { project_id: project.project_id },
           }"
         >
-        <i class="fa fa-eye"></i>
+          <i class="fa fa-eye"></i>
         </router-link>
       </li>
     </ul>
@@ -61,4 +61,8 @@ export default {
 </script>
 
 <style>
+#dashboard {
+  text-align: left;
+}
+
 </style>

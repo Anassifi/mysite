@@ -9,6 +9,7 @@ import dashboardNav from "@/components/Dashboard/dashboardNav.vue";
 
 export default {
   name: "App",
+  el: ".seen",
   components: {
     Navbar,
     Arrow,
@@ -17,6 +18,16 @@ export default {
     Portfolio,
     Contact,
     Footer,
-    dashboardNav
+    dashboardNav,
+  },
+  data() {
+    return {
+      seen: false,
+    };
+  },
+  methods: {
+    openDashboard: function() {
+      this.seen = true;
+    },
   },
 };
